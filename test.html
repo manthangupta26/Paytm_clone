@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+           screens :{
+                    sm: '480px',
+                    md:'768px',
+                    lg:'976px',
+                    xl:'1440px'
+           },
+          extend: {
+            colors: {
+              payblue:'#00baf2',
+              paydblue:'#0f4a89',
+              payblack:'#000000',
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-payblue">
+    <section id="hero2">
+        <div class="container flex flex-col-reverse items-center md:flex-col items-start border-solid border-2 border-white-500">
+          <div class="flex justify-start border-solid border-2 border-white-500">Recharge & Pay Bills on Paytm.</div>
+          <div>test 2</div>
+        </div>
+
+        <section class="hero6 container-fluid border-3 bg-paydblue">
+          gg
+        </section>
+
+</body>
+</html>
